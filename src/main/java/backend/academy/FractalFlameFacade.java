@@ -9,10 +9,6 @@ import backend.academy.symmetry.Symmetry;
 import backend.academy.symmetry.VerticalSymmetry;
 import backend.academy.transformations.PredefinedTransformations;
 import backend.academy.transformations.Transformation;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
-
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +18,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 @Getter
 @Setter
